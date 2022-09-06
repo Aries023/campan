@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Campan extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Campan.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Campan.class.getResource("mainCampan.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Campan wrap party!");
         stage.setScene(scene);
