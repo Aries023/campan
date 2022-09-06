@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0"
+            prefWidth="1000.0" xmlns="http://javafx.com/javafx/18">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="116.0" style="-fx-background-color: #F0810F;"
+                 text="CRISPY BACON" textAlignment="CENTER" wrapText="true"/>
+         <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="116.0" style="-fx-background-color: #CB0000;"
+                 text="GRILLED ITALIAN" textAlignment="CENTER" wrapText="true"/>
+         <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;"
+                 text="CRISPY ASIA" textAlignment="CENTER" wrapText="true"/>
+         <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="116.0" text="GRILLED AJVAR"
+                 textAlignment="CENTER" wrapText="true"/>
+      </VBox>
+   </left>
+   <top>
+      <HBox prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #063852;" BorderPane.alignment="CENTER">
+         <ImageView fitHeight="100.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@mc_50.png"/>
+         </ImageView>
+      </HBox>
+   </top>
+   <bottom>
+      <ButtonBar prefHeight="40.0" prefWidth="583.0" style="-fx-background-color: #011A27;" BorderPane.alignment="CENTER">
+         <buttons>
+            <Label text="Aries023" textFill="#d00505">
+               <font>
+                  <Font name="Monospaced Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label id="burgrName" alignment="CENTER" prefHeight="17.0" prefWidth="391.0" text="wrap" textFill="#ee0b0b" wrapText="true">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="20.0" text="ver0.23" textAlignment="CENTER" textFill="#a41003">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font>
+            </Label>
+         </buttons>
+      </ButtonBar>
+   </bottom>
+   <center>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+         <Tab text="Garnir">
+            <HBox alignment="CENTER" prefHeight="200.0" prefWidth="500.0">
+               <HBox prefHeight="331.0" prefWidth="916.0">
+                  <VBox prefHeight="331.0" prefWidth="1177.0">
+                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                        <Button mnemonicParsing="false" text="Ajvar"/>
+                        <Button mnemonicParsing="false" text="Asia"/>
+                        <Button mnemonicParsing="false" text="Hrub. Horčica" textAlignment="CENTER"
+                                wrapText="true"/>
+                        <Button mnemonicParsing="false" text="Tasty"/>
+                        <Button mnemonicParsing="false" text="Tomato Italian" textAlignment="CENTER"
+                                wrapText="true"/>
+                        <Button mnemonicParsing="false" text="Garlic"/>
+                        <Button mnemonicParsing="false" text="Big Mac" wrapText="true"/>
+                     </HBox>
+                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                     </HBox>
+                     <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="200.0"
+                           prefWidth="600.0">
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <Button mnemonicParsing="false" text="Button"/>
+                     </HBox>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="600.0">
+                     <VBox alignment="CENTER" prefHeight="231.0" prefWidth="150.0">
+                        <Button mnemonicParsing="false" text="Button"/>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <Button mnemonicParsing="false" text="Button"/>
+                           <Button mnemonicParsing="false" text="Button"/>
+                        </HBox>
+                     </VBox>
+                  </VBox>
+               </HBox>
+            </HBox>
+         </Tab>
+         <Tab text="Pomocka"/>
+      </TabPane>
+   </center>
+</BorderPane>
