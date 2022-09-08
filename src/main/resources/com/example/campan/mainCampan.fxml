@@ -19,9 +19,9 @@
          <Button mnemonicParsing="false" onAction="#italianButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #CB0000;" text="GRILLED ITALIAN" textAlignment="CENTER" wrapText="true" />
          <Button mnemonicParsing="false" onAction="#asiaButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;" text="CRISPY ASIA" textAlignment="CENTER" wrapText="true" />
          <Button mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="GRILLED AJVAR" textAlignment="CENTER" wrapText="true" />
-         <Button layoutX="10.0" layoutY="430.0" mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="Random" textAlignment="CENTER" wrapText="true" />
+         <Button layoutX="10.0" layoutY="430.0" mnemonicParsing="false" onAction="#randomButtonMenu" prefHeight="200.0" prefWidth="116.0" text="Random" textAlignment="CENTER" wrapText="true" />
          <ImageView fitHeight="100.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
-            <Image url="@ari.png"/>
+            <Image url="@ari.png" />
          </ImageView>
       </VBox>
    </left>
@@ -47,14 +47,14 @@
                <HBox prefHeight="331.0" prefWidth="916.0">
                   <VBox prefHeight="331.0" prefWidth="1177.0">
                      <HBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Ajvar" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Asia" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Hrub. Horčica" textAlignment="CENTER" wrapText="true" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Tasty" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Tomato Italian" textAlignment="CENTER" wrapText="true" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Garlic" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Sandwitch" wrapText="true" />
-                        <Button layoutX="527.0" layoutY="36.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Big Mac" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Ajvar" prefHeight="50.0" prefWidth="80.0" text="Ajvar" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Asia" prefHeight="50.0" prefWidth="80.0" text="Asia" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Horcica" prefHeight="50.0" prefWidth="80.0" text="Hrub. Horčica" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Tasty" prefHeight="50.0" prefWidth="80.0" text="Tasty" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Italian" prefHeight="50.0" prefWidth="80.0" text="Tomato Italian" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Garlic" prefHeight="50.0" prefWidth="80.0" text="Garlic" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Sandwitch" prefHeight="50.0" prefWidth="80.0" text="Sandwitch" wrapText="true" />
+                        <Button layoutX="527.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir0BigMac" prefHeight="50.0" prefWidth="80.0" text="Big Mac" textAlignment="CENTER" wrapText="true" />
                      </HBox>
                      <HBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
                         <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Emental" />
@@ -90,23 +90,20 @@
       </TabPane>
    </center>
    <bottom>
-      <HBox alignment="CENTER" prefHeight="35.0" prefWidth="2000.0" style="-fx-background-color: #011A27;"
-            BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" prefHeight="35.0" prefWidth="2000.0" style="-fx-background-color: #011A27;" BorderPane.alignment="CENTER">
          <Label prefHeight="0.0" prefWidth="800.0" text="Aries023" textFill="#d00505">
             <font>
-               <Font name="Monospaced Regular" size="14.0"/>
+               <Font name="Monospaced Regular" size="14.0" />
             </font>
          </Label>
-         <Label id="burgrName" fx:id="botPanelWrap" alignment="CENTER" prefHeight="0.0" prefWidth="800.0" text="wrap"
-                textFill="#ee0b0b" wrapText="true">
+         <Label id="burgrName" fx:id="botPanelWrap" alignment="CENTER" prefHeight="0.0" prefWidth="800.0" text="wrap" textFill="#ee0b0b" wrapText="true">
             <font>
-               <Font name="Consolas" size="18.0"/>
+               <Font name="Consolas" size="18.0" />
             </font>
          </Label>
-         <Label alignment="CENTER_RIGHT" prefHeight="0.0" prefWidth="800.0" text="ver0.23" textAlignment="CENTER"
-                textFill="#a41003">
+         <Label alignment="CENTER_RIGHT" prefHeight="0.0" prefWidth="800.0" text="ver0.23" textAlignment="CENTER" textFill="#a41003">
             <font>
-               <Font name="Nirmala UI" size="14.0"/>
+               <Font name="Nirmala UI" size="14.0" />
             </font>
          </Label>
       </HBox>
