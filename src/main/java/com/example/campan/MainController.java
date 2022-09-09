@@ -32,7 +32,7 @@ public class MainController {
     }
 
     // center --> garnir buttons
-
+    // 0
     @FXML
     protected void garnir0Ajvar() {
         topPanelIngr.setText("Ajvar sos");
@@ -64,6 +64,32 @@ public class MainController {
     @FXML
     protected void garnir0BigMac() {
         topPanelIngr.setText("Big Mac sos");
+    }
+
+    // 1
+    @FXML
+    protected void garnir1Emental() {
+        topPanelIngr.setText("Emental");
+    }
+    @FXML
+    protected void garnir1UhorkaSal() {
+        topPanelIngr.setText("Uhorky šalatove");
+    }
+    @FXML
+    protected void garnir1StruhChedar() {
+        topPanelIngr.setText("Struhany Chedar");
+    }
+    @FXML
+    protected void garnir1RestCibula() {
+        topPanelIngr.setText("Restovana cibula");
+    }
+    @FXML
+    protected void garnir1BielaCibula() {
+        topPanelIngr.setText("Biela cibula");
+    }
+    @FXML
+    protected void garnir1Jalapenos() {
+        topPanelIngr.setText("Jalapenos");
     }
 
 }
