@@ -1,7 +1,11 @@
 package com.example.campan;
 
+import com.example.campan.stuffs.WrapListSetter;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainController {
     @FXML
@@ -9,10 +13,15 @@ public class MainController {
     @FXML
     private Label botPanelWrap; // bot label for kind of wrap
 
+    List<String> actualWrap = new ArrayList<>(); // List of  needed ingredient
+    byte position = 0;  // what ingredient is needed right now
+
     // left menu --> buttons
     @FXML
     protected void baconButtonMenu() {
         botPanelWrap.setText("bacon wrap");
+        WrapListSetter.setToBaconWrap(actualWrap);
+        System.out.println(actualWrap);
     }
     @FXML
     protected void italianButtonMenu() {
