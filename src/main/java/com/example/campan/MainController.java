@@ -9,9 +9,7 @@ import java.util.List;
 
 public class MainController {
     @FXML
-    private Label topPanelIngr; // top label for last used ingredient
-    @FXML
-    private Label botPanelWrap; // bot label for kind of wrap
+    private Label topPanelIngr,botPanelWrap;
 
     List<String> actualWrap = new ArrayList<>(); // List of  needed ingredient
     byte position = 0;  // what ingredient is needed right now
