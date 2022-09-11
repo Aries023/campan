@@ -1,5 +1,6 @@
 package com.example.campan;
 
+import com.example.campan.stuffs.Corrector;
 import com.example.campan.stuffs.WrapListSetter;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -19,7 +20,6 @@ public class MainController {
     protected void baconButtonMenu() {
         botPanelWrap.setText("bacon wrap");
         WrapListSetter.setToBaconWrap(actualWrap);
-        System.out.println(actualWrap);
     }
     @FXML
     protected void italianButtonMenu() {
@@ -50,7 +50,26 @@ public class MainController {
     }
     @FXML
     protected void garnir0Horcica() {
-        topPanelIngr.setText("Hrubozrna horčica");
+        if (Corrector.nullChecker(actualWrap)){ // check if its null
+            topPanelIngr.setText("Ups.. a aky že wrap to robime?");
+        }else {
+            if (Corrector.controlIngredient(actualWrap,position,"horcica")){ // check if its correct ingredient
+                if (Corrector.finishControl(actualWrap,position)){
+                    topPanelIngr.setText("Congratulations, you did it!");
+                    position=0;
+                }else {
+                    topPanelIngr.setText("Hrubozrna horčica");
+                    position++;
+                }
+            }else {
+                if (Corrector.isContains(actualWrap,"horcica")){ // if its not correct then if wrap contain the ingredient
+                    topPanelIngr.setText("niečo si preskočil alebo tam toho dal trocha vela.. ale vratim  čas a dam ti este šancu..");
+                }else {
+                    topPanelIngr.setText("Ups.. pokazil si wrap, musiš ist znova!");
+                    position=0;
+                }
+                     }
+        }
     }
     @FXML
     protected void garnir0Tasty() {
