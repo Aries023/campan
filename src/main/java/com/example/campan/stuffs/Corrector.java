@@ -19,8 +19,8 @@ import java.util.Objects;
         return wrap.contains(ingredient);
     }
 
-    // check if its a last ingredient
+    // check if it's a last ingredient
         public static boolean finishControl(List<String> wrap,byte where){
-            return wrap.size()+1 == where;
+            return wrap.size()-1 == where;
         }
 }
