@@ -65,21 +65,21 @@
                         <Button layoutX="448.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir1Jalapenos" prefHeight="50.0" prefWidth="80.0" text="Jalapenos" />
                      </HBox>
                      <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="200.0" prefWidth="1000.0">
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Chedar" />
-                        <Button layoutX="249.0" layoutY="86.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Chedar" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Bacon" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Paradajky" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Rukola" />
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Šalat" />
-                        <Button layoutX="497.0" layoutY="86.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Uhorky kysle" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="50.0" prefWidth="80.0" text="Chedar" />
+                        <Button layoutX="249.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="50.0" prefWidth="80.0" text="Chedar" />
+                        <Button mnemonicParsing="false" onAction="#garnir2Bacon" prefHeight="50.0" prefWidth="80.0" text="Bacon" />
+                        <Button mnemonicParsing="false" onAction="#garnir2Paradajky" prefHeight="50.0" prefWidth="80.0" text="Paradajky" />
+                        <Button mnemonicParsing="false" onAction="#garnir2Rukola" prefHeight="50.0" prefWidth="80.0" text="Rukola" />
+                        <Button mnemonicParsing="false" onAction="#garnir2Salat" prefHeight="50.0" prefWidth="80.0" text="Šalat" />
+                        <Button layoutX="497.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Uhorky" prefHeight="50.0" prefWidth="80.0" text="Uhorky kysle" textAlignment="CENTER" wrapText="true" />
                      </HBox>
                   </VBox>
                   <VBox prefHeight="200.0" prefWidth="600.0">
                      <VBox alignment="CENTER" prefHeight="533.0" prefWidth="158.0">
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="chickenbur omačka" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir3ChickenBurgSos" prefHeight="50.0" prefWidth="80.0" text="chickenbur omačka" textAlignment="CENTER" wrapText="true" />
                         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-                           <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Kečup" />
-                           <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="80.0" text="Horčica" />
+                           <Button mnemonicParsing="false" onAction="#garnir3Kecup" prefHeight="50.0" prefWidth="80.0" text="Kečup" />
+                           <Button mnemonicParsing="false" onAction="#garnir3Horcica" prefHeight="50.0" prefWidth="80.0" text="Horčica" />
                         </HBox>
                      </VBox>
                   </VBox>
