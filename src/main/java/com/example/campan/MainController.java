@@ -24,14 +24,17 @@ public class MainController {
     @FXML
     protected void italianButtonMenu() {
         botPanelWrap.setText("italian wrap");
+        WrapListSetter.setToItalianWrap(actualWrap);
     }
     @FXML
     protected void asiaButtonMenu() {
         botPanelWrap.setText("asia wrap");
+        WrapListSetter.setToAsiaWrap(actualWrap);
     }
     @FXML
     protected void ajvarButtonMenu() {
         botPanelWrap.setText("ajvar wrap");
+        WrapListSetter.setToAjvarWrap(actualWrap);
     }
     @FXML
     protected void randomButtonMenu() {

@@ -59,7 +59,7 @@
                      <HBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
                         <Button mnemonicParsing="false" onAction="#garnir1Emental" prefHeight="50.0" prefWidth="80.0" text="Emental" />
                         <Button mnemonicParsing="false" onAction="#garnir1UhorkaSal" prefHeight="50.0" prefWidth="80.0" text="Uhorky šall." wrapText="true" />
-                        <Button mnemonicParsing="false" onAction="#garnir1StruhChedar" prefHeight="50.0" prefWidth="80.0" text="Struhany Chedar" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir1StruhCheddar" prefHeight="50.0" prefWidth="80.0" text="Struhany Chedar" textAlignment="CENTER" wrapText="true" />
                         <Button mnemonicParsing="false" onAction="#garnir1RestCibula" prefHeight="50.0" prefWidth="80.0" text="Rest. cibula" />
                         <Button mnemonicParsing="false" onAction="#garnir1BielaCibula" prefHeight="50.0" prefWidth="80.0" text="Biela cibula" wrapText="true" />
                         <Button layoutX="448.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir1Jalapenos" prefHeight="50.0" prefWidth="80.0" text="Jalapenos" />
