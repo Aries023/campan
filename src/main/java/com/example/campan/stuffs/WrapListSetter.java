@@ -13,7 +13,7 @@ public class WrapListSetter { // set wrap pole to bacon wrap
         pole.add("uhorky");
         pole.add("salat");
         pole.add("paradajky");
-        pole.add("chedar");
+        pole.add("strCheddar");
         pole.add("bacon");
     }
     public static void setToItalianWrap(List<String> pole){
