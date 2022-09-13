@@ -12,13 +12,33 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.campan.MainController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.campan.MainController">
    <left>
       <VBox alignment="CENTER" prefHeight="543.0" prefWidth="107.0" style="-fx-background-color: #063852;" BorderPane.alignment="CENTER">
-         <Button mnemonicParsing="false" onAction="#baconButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #F0810F;" text="CRISPY BACON" textAlignment="CENTER" wrapText="true" />
-         <Button mnemonicParsing="false" onAction="#italianButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #CB0000;" text="GRILLED ITALIAN" textAlignment="CENTER" wrapText="true" />
-         <Button mnemonicParsing="false" onAction="#asiaButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;" text="CRISPY ASIA" textAlignment="CENTER" wrapText="true" />
-         <Button mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="GRILLED AJVAR" textAlignment="CENTER" wrapText="true" />
+         <Button mnemonicParsing="false" onAction="#baconButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #F0810F;" text="CRISPY BACON" textAlignment="CENTER" wrapText="true">
+            <graphic>
+               <ImageView fitHeight="44.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@yelowWrap.jpeg"/>
+               </ImageView>
+            </graphic></Button>
+         <Button mnemonicParsing="false" onAction="#italianButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #CB0000;" text="GRILLED ITALIAN" textAlignment="CENTER" wrapText="true">
+            <graphic>
+               <ImageView fitHeight="49.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@greenWrap.jpeg"/>
+               </ImageView>
+            </graphic></Button>
+         <Button mnemonicParsing="false" onAction="#asiaButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;" text="CRISPY ASIA" textAlignment="CENTER" wrapText="true">
+            <graphic>
+               <ImageView fitHeight="38.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@redWrap.jpeg"/>
+               </ImageView>
+            </graphic></Button>
+         <Button mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="GRILLED AJVAR" textAlignment="CENTER" wrapText="true">
+            <graphic>
+               <ImageView fitHeight="40.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@blueWrap.jpeg"/>
+               </ImageView>
+            </graphic></Button>
          <Button layoutX="10.0" layoutY="430.0" mnemonicParsing="false" onAction="#randomButtonMenu" prefHeight="200.0" prefWidth="116.0" text="Random" textAlignment="CENTER" wrapText="true" />
          <ImageView fitHeight="100.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
             <Image url="@ari.png" />
@@ -30,7 +50,7 @@
          <ImageView fitHeight="108.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
             <Image url="@mc_50.png" />
          </ImageView>
-         <Label fx:id="topPanelIngr" alignment="CENTER" contentDisplay="CENTER" prefHeight="109.0" prefWidth="2000.0" text="Vyber si wrap!" textAlignment="CENTER" textFill="#3c7949" underline="true" wrapText="true">
+         <Label fx:id="topPanelIngr" alignment="CENTER" contentDisplay="CENTER" prefHeight="109.0" prefWidth="2000.0" text="Vyber si wrap!" textAlignment="CENTER" textFill="#e8e11a" underline="true" wrapText="true">
             <font>
                <Font name="Gabriola" size="48.0" />
             </font>
@@ -47,43 +67,125 @@
                <HBox prefHeight="331.0" prefWidth="916.0">
                   <VBox prefHeight="331.0" prefWidth="1177.0">
                      <HBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
-                        <Button mnemonicParsing="false" onAction="#garnir0Ajvar" prefHeight="50.0" prefWidth="80.0" text="Ajvar" />
-                        <Button mnemonicParsing="false" onAction="#garnir0Asia" prefHeight="50.0" prefWidth="80.0" text="Asia" />
-                        <Button mnemonicParsing="false" onAction="#garnir0Horcica" prefHeight="50.0" prefWidth="80.0" text="Hrub. Horčica" textAlignment="CENTER" wrapText="true" />
-                        <Button mnemonicParsing="false" onAction="#garnir0Tasty" prefHeight="50.0" prefWidth="80.0" text="Tasty" />
-                        <Button mnemonicParsing="false" onAction="#garnir0Italian" prefHeight="50.0" prefWidth="80.0" text="Tomato Italian" textAlignment="CENTER" wrapText="true" />
-                        <Button mnemonicParsing="false" onAction="#garnir0Garlic" prefHeight="50.0" prefWidth="80.0" text="Garlic" />
-                        <Button mnemonicParsing="false" onAction="#garnir0Sandwitch" prefHeight="50.0" prefWidth="80.0" text="Sandwitch" wrapText="true" />
-                        <Button layoutX="527.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir0BigMac" prefHeight="50.0" prefWidth="80.0" text="Big Mac" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Ajvar" prefHeight="70.0" prefWidth="90.0" text="Ajvar" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Asia" prefHeight="70.0" prefWidth="90.0" text="Asia" />
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#garnir0Horcica" prefHeight="70.0" prefWidth="90.0" text="Hrub. Horčica" textAlignment="CENTER" wrapText="true">
+                           <graphic>
+                              <ImageView fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@mustard.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button mnemonicParsing="false" onAction="#garnir0Tasty" prefHeight="70.0" prefWidth="90.0" text="Tasty" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Italian" prefHeight="70.0" prefWidth="90.0" text="Tomato Italian" textAlignment="CENTER" wrapText="true" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Garlic" prefHeight="70.0" prefWidth="90.0" text="Garlic" />
+                        <Button mnemonicParsing="false" onAction="#garnir0Sandwitch" prefHeight="70.0" prefWidth="90.0" text="Sandwitch" wrapText="true" />
+                        <Button layoutX="527.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir0BigMac" prefHeight="70.0" prefWidth="90.0" text="Big Mac" textAlignment="CENTER" wrapText="true" />
                      </HBox>
                      <HBox alignment="CENTER" prefHeight="200.0" prefWidth="1000.0">
-                        <Button mnemonicParsing="false" onAction="#garnir1Emental" prefHeight="50.0" prefWidth="80.0" text="Emental" />
-                        <Button mnemonicParsing="false" onAction="#garnir1UhorkaSal" prefHeight="50.0" prefWidth="80.0" text="Uhorky šall." wrapText="true" />
-                        <Button mnemonicParsing="false" onAction="#garnir1StruhCheddar" prefHeight="50.0" prefWidth="80.0" text="Struhany Chedar" textAlignment="CENTER" wrapText="true" />
-                        <Button mnemonicParsing="false" onAction="#garnir1RestCibula" prefHeight="50.0" prefWidth="80.0" text="Rest. cibula" />
-                        <Button mnemonicParsing="false" onAction="#garnir1BielaCibula" prefHeight="50.0" prefWidth="80.0" text="Biela cibula" wrapText="true" />
-                        <Button layoutX="448.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir1Jalapenos" prefHeight="50.0" prefWidth="80.0" text="Jalapenos" />
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1Emental" prefHeight="70.0" prefWidth="100.0" text="Emental">
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@emental.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1UhorkaSal" prefHeight="70.0" prefWidth="100.0" text="Uhorky šall." wrapText="true">
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@cucumbers.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1StruhCheddar" prefHeight="70.0" prefWidth="100.0" text="Struhany Chedar" textAlignment="CENTER" wrapText="true">
+                           <graphic>
+                              <ImageView fitHeight="24.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@strCheddar.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1RestCibula" prefHeight="70.0" prefWidth="100.0" text="Rest. cibula">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@restCibula.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1BielaCibula" prefHeight="70.0" prefWidth="100.0" text="Biela cibula" wrapText="true">
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@onion.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" layoutX="448.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir1Jalapenos" prefHeight="70.0" prefWidth="100.0" text="Jalapenos">
+                           <graphic>
+                              <ImageView fitHeight="36.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@jalapenos.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
                      </HBox>
                      <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="200.0" prefWidth="1000.0">
-                        <Button mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="50.0" prefWidth="80.0" text="Chedar" />
-                        <Button layoutX="249.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="50.0" prefWidth="80.0" text="Chedar" />
-                        <Button mnemonicParsing="false" onAction="#garnir2Bacon" prefHeight="50.0" prefWidth="80.0" text="Bacon" />
-                        <Button mnemonicParsing="false" onAction="#garnir2Paradajky" prefHeight="50.0" prefWidth="80.0" text="Paradajky" />
-                        <Button mnemonicParsing="false" onAction="#garnir2Rukola" prefHeight="50.0" prefWidth="80.0" text="Rukola" />
-                        <Button mnemonicParsing="false" onAction="#garnir2Salat" prefHeight="50.0" prefWidth="80.0" text="Šalat" />
-                        <Button layoutX="497.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Uhorky" prefHeight="50.0" prefWidth="80.0" text="Uhorky kysle" textAlignment="CENTER" wrapText="true" />
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="70.0" prefWidth="100.0" text="Chedar">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@cheddar.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" layoutX="249.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="70.0" prefWidth="100.0" text="Chedar">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@cheddar.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Bacon" prefHeight="70.0" prefWidth="100.0" text="Bacon">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@bacon.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Paradajky" prefHeight="70.0" prefWidth="100.0" text="Paradajky" textAlignment="CENTER" wrapText="true">
+                           <graphic>
+                              <ImageView fitHeight="41.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@tomato.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Rukola" prefHeight="70.0" prefWidth="100.0" text="Rukola">
+                           <graphic>
+                              <ImageView fitHeight="41.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@Rukola.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Salat" prefHeight="70.0" prefWidth="100.0" text="Šalat">
+                           <graphic>
+                              <ImageView fitHeight="39.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@eisberg.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button contentDisplay="TOP" layoutX="497.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Uhorky" prefHeight="70.0" prefWidth="100.0" text="Uhorky kysle" textAlignment="CENTER" wrapText="true">
+                           <graphic>
+                              <ImageView fitHeight="33.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@uhorky.jpg"/>
+                              </ImageView>
+                           </graphic></Button>
                      </HBox>
                   </VBox>
-                  <VBox prefHeight="200.0" prefWidth="600.0">
-                     <VBox alignment="CENTER" prefHeight="533.0" prefWidth="158.0">
-                        <Button mnemonicParsing="false" onAction="#garnir3ChickenBurgSos" prefHeight="50.0" prefWidth="80.0" text="chickenbur omačka" textAlignment="CENTER" wrapText="true" />
-                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-                           <Button mnemonicParsing="false" onAction="#garnir3Kecup" prefHeight="50.0" prefWidth="80.0" text="Kečup" />
-                           <Button mnemonicParsing="false" onAction="#garnir3Horcica" prefHeight="50.0" prefWidth="80.0" text="Horčica" />
-                        </HBox>
-                     </VBox>
-                  </VBox>
                </HBox>
+               <VBox alignment="CENTER_LEFT" prefHeight="531.0" prefWidth="239.0">
+                  <VBox alignment="CENTER" prefHeight="319.0" prefWidth="103.0">
+                     <Button mnemonicParsing="false" onAction="#garnir3ChickenBurgSos" prefHeight="70.0" prefWidth="100.0" text="chickenbur omačka" textAlignment="CENTER" wrapText="true" />
+                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir3Kecup" prefHeight="70.0" prefWidth="100.0" text="Kečup">
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@ketchup.jpg"/>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir3Horcica" prefHeight="70.0" prefWidth="100.0" text="Horčica">
+                           <graphic>
+                              <ImageView fitHeight="40.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                                 <Image url="@horcica.jpg"/>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </HBox>
+                  </VBox>
+               </VBox>
             </HBox>
          </Tab>
          <Tab text="Pomocka" />
