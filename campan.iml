@@ -27,5 +27,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:20-ea+2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:win:20-ea+2" level="project" />
   </component>
 </module>
