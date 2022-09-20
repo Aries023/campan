@@ -3,6 +3,7 @@ module com.example.campan {
     requires javafx.fxml;
     requires java.sql;
     requires javafx.media;
+    requires java.desktop;
 
 
     opens com.example.campan to javafx.fxml;

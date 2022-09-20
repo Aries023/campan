@@ -1,5 +1,6 @@
 package com.example.campan;
 
+import com.example.campan.stuffs.Sounds;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -15,6 +16,7 @@ public class Campan extends Application {
         stage.setTitle("Campan wrap party!");
         stage.setScene(scene);
         stage.show();
+        Sounds.menuSong(); // play song when program starts
     }
 
     public static void main(String[] args) {
