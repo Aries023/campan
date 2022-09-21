@@ -1,6 +1,7 @@
 package com.example.campan;
 
 import com.example.campan.stuffs.Corrector;
+import com.example.campan.stuffs.Sounds;
 import com.example.campan.stuffs.WrapListSetter;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -146,20 +147,25 @@ public class MainController {
     // functionality of buttons
     void buttonManager(String nameIngredient, String nameKey){
         if (Corrector.nullChecker(actualWrap)){ // check if its null
+            Sounds.fail();
             topPanelIngr.setText("Ups.. a aky že wrap to robime?");
         }else {
             if (Corrector.controlIngredient(actualWrap,position,nameKey)){ // check if its correct ingredient
                 if (Corrector.finishControl(actualWrap,position)){
+                    Sounds.win();
                     topPanelIngr.setText("Congratulations, you did it!");
                     position=0;
                 }else {
+                    Sounds.successful();
                     topPanelIngr.setText(nameIngredient);
                     position++;
                 }
             }else {
                 if (Corrector.isContains(actualWrap,nameKey)){ // if its not correct then if wrap contain the ingredient
+                    Sounds.closeOne();
                     topPanelIngr.setText("niečo si preskočil alebo tam toho dal trocha vela.. ale vratim  čas a dam ti este šancu..");
                 }else {
+                    Sounds.fail();
                     topPanelIngr.setText("Ups.. pokazil si wrap, musiš ist znova!");
                     position=0;
                 }
