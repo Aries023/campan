@@ -8,6 +8,8 @@ import java.io.File;
 
 
 public class Sounds {
+    // create MediaPlayer
+    static MediaPlayer player;
 
     // Starts song in loop at strat of program
     public static void menuSong(){
@@ -29,6 +31,12 @@ public class Sounds {
     }
 
     public static void successful(){
+        // check if its MediaPlayer ready
+        if (player != null){
+            player.stop();
+            player.dispose();
+        }
+
         // URL
         String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Swoosh.mp3";
 
@@ -36,12 +44,17 @@ public class Sounds {
         Media success = new Media(new File(sound).toURI().toString());
 
         // give Media to MediaPlayer
-        MediaPlayer player = new MediaPlayer(success);
+        player = new MediaPlayer(success);
         // play
         player.play();
     }
 
     public static void fail(){
+        // check if its MediaPlayer ready
+        if (player != null){
+            player.stop();
+            player.dispose();
+        }
         // URL
         String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Clang and wobble.mp3";
 
@@ -49,12 +62,17 @@ public class Sounds {
         Media fail = new Media(new File(sound).toURI().toString());
 
         // give Media to MediaPlayer
-        MediaPlayer player = new MediaPlayer(fail);
+        player = new MediaPlayer(fail);
         // play
         player.play();
     }
 
     public static void closeOne(){
+        // check if its MediaPlayer ready
+        if (player != null){
+            player.stop();
+            player.dispose();
+        }
         // URL
         String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Drumset Falling Down Stairs.mp3";
 
@@ -62,19 +80,24 @@ public class Sounds {
         Media niceTry = new Media(new File(sound).toURI().toString());
 
         // give Media to MediaPlayer
-        MediaPlayer player = new MediaPlayer(niceTry);
+        player = new MediaPlayer(niceTry);
         // play
         player.play();
     }
 
     public static void win(){
+        // check if its MediaPlayer ready
+        if (player != null){
+            player.stop();
+            player.dispose();
+        }
         String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Drumset Falling Down Stairs.mp3";
 
         // Set file from URL to Media
         Media win = new Media(new File(sound).toURI().toString());
 
         // give Media to MediaPlayer
-        MediaPlayer player = new MediaPlayer(win);
+        player = new MediaPlayer(win);
         // play
         player.play();
     }
