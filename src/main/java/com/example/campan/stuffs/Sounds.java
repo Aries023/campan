@@ -14,7 +14,7 @@ public class Sounds {
     // Starts song in loop at strat of program
     public static void menuSong(){
         // URL
-        String runAway = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Halcyon - Runaway (feat. Valentina Franco) [NCS Release].mp3";
+        String runAway = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\happyBackgroundMusic.mp3";
 
         // Set file from URL to Media
         Media menuSong = new Media(new File(runAway).toURI().toString());
@@ -38,7 +38,7 @@ public class Sounds {
         }
 
         // URL
-        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Swoosh.mp3";
+        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\yay.wav";
 
         // Set file from URL to Media
         Media success = new Media(new File(sound).toURI().toString());
@@ -56,7 +56,7 @@ public class Sounds {
             player.dispose();
         }
         // URL
-        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Clang and wobble.mp3";
+        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\wrongChoice.wav";
 
         // Set file from URL to Media
         Media fail = new Media(new File(sound).toURI().toString());
@@ -74,7 +74,7 @@ public class Sounds {
             player.dispose();
         }
         // URL
-        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Drumset Falling Down Stairs.mp3";
+        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\coin.wav";
 
         // Set file from URL to Media
         Media niceTry = new Media(new File(sound).toURI().toString());
@@ -91,7 +91,7 @@ public class Sounds {
             player.stop();
             player.dispose();
         }
-        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\Drumset Falling Down Stairs.mp3";
+        String sound = "C:\\Users\\Peter\\IdeaProjects\\campan\\src\\yipee.wav";
 
         // Set file from URL to Media
         Media win = new Media(new File(sound).toURI().toString());
