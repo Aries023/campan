@@ -54,7 +54,7 @@ public class MainController {
     }
     @FXML
     protected void garnir0Horcica() {
-        buttonManager("Hrubozrna horčica","horcica");
+        buttonManager("Hrubozrna horčica","horcicaH");
     }
     @FXML
     protected void garnir0Tasty() {

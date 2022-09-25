@@ -8,7 +8,7 @@ public class WrapListSetter { // set wrap pole to bacon wrap
         pole.clear();
 
         // add ingrediends
-        pole.add("horcica");
+        pole.add("horcicaH");
         pole.add("kecup");
         pole.add("uhorky");
         pole.add("salat");
