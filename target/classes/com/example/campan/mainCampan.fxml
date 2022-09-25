@@ -18,25 +18,25 @@
          <Button mnemonicParsing="false" onAction="#baconButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #F0810F;" text="CRISPY BACON" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="44.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
-                  <Image url="@yelowWrap.jpeg"/>
+                  <Image url="@yelowWrap.jpeg" />
                </ImageView>
             </graphic></Button>
          <Button mnemonicParsing="false" onAction="#italianButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #CB0000;" text="GRILLED ITALIAN" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="49.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
-                  <Image url="@greenWrap.jpeg"/>
+                  <Image url="@greenWrap.jpeg" />
                </ImageView>
             </graphic></Button>
          <Button mnemonicParsing="false" onAction="#asiaButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;" text="CRISPY ASIA" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="38.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
-                  <Image url="@redWrap.jpeg"/>
+                  <Image url="@redWrap.jpeg" />
                </ImageView>
             </graphic></Button>
          <Button mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="GRILLED AJVAR" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="40.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
-                  <Image url="@blueWrap.jpeg"/>
+                  <Image url="@blueWrap.jpeg" />
                </ImageView>
             </graphic></Button>
          <Button layoutX="10.0" layoutY="430.0" mnemonicParsing="false" onAction="#randomButtonMenu" prefHeight="200.0" prefWidth="116.0" text="Random" textAlignment="CENTER" wrapText="true" />
@@ -72,7 +72,7 @@
                         <Button alignment="CENTER" mnemonicParsing="false" onAction="#garnir0Horcica" prefHeight="70.0" prefWidth="90.0" text="Hrub. Horčica" textAlignment="CENTER" wrapText="true">
                            <graphic>
                               <ImageView fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@mustard.jpg"/>
+                                 <Image url="@mustard.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button mnemonicParsing="false" onAction="#garnir0Tasty" prefHeight="70.0" prefWidth="90.0" text="Tasty" />
@@ -85,37 +85,37 @@
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1Emental" prefHeight="70.0" prefWidth="100.0" text="Emental">
                            <graphic>
                               <ImageView fitHeight="30.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@emental.jpg"/>
+                                 <Image url="@emental.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1UhorkaSal" prefHeight="70.0" prefWidth="100.0" text="Uhorky šall." wrapText="true">
                            <graphic>
                               <ImageView fitHeight="29.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@cucumbers.jpg"/>
+                                 <Image url="@cucumbergg.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1StruhCheddar" prefHeight="70.0" prefWidth="100.0" text="Struhany Chedar" textAlignment="CENTER" wrapText="true">
                            <graphic>
                               <ImageView fitHeight="24.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@strCheddar.jpg"/>
+                                 <Image url="@strCheddar.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1RestCibula" prefHeight="70.0" prefWidth="100.0" text="Rest. cibula">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@restCibula.jpg"/>
+                                 <Image url="@restCibula.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir1BielaCibula" prefHeight="70.0" prefWidth="100.0" text="Biela cibula" wrapText="true">
                            <graphic>
                               <ImageView fitHeight="32.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@onion.jpg"/>
+                                 <Image url="@onion.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" layoutX="448.0" layoutY="36.0" mnemonicParsing="false" onAction="#garnir1Jalapenos" prefHeight="70.0" prefWidth="100.0" text="Jalapenos">
                            <graphic>
                               <ImageView fitHeight="36.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@jalapenos.jpg"/>
+                                 <Image url="@jalapenos.jpg" />
                               </ImageView>
                            </graphic></Button>
                      </HBox>
@@ -123,43 +123,43 @@
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="70.0" prefWidth="100.0" text="Chedar">
                            <graphic>
                               <ImageView fitHeight="44.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@cheddar.jpg"/>
+                                 <Image url="@cheddar.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" layoutX="249.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Cheddar" prefHeight="70.0" prefWidth="100.0" text="Chedar">
                            <graphic>
                               <ImageView fitHeight="44.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@cheddar.jpg"/>
+                                 <Image url="@cheddar.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Bacon" prefHeight="70.0" prefWidth="100.0" text="Bacon">
                            <graphic>
                               <ImageView fitHeight="44.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@bacon.jpg"/>
+                                 <Image url="@bacon.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Paradajky" prefHeight="70.0" prefWidth="100.0" text="Paradajky" textAlignment="CENTER" wrapText="true">
                            <graphic>
                               <ImageView fitHeight="41.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@tomato.jpg"/>
+                                 <Image url="@tomato.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Rukola" prefHeight="70.0" prefWidth="100.0" text="Rukola">
                            <graphic>
                               <ImageView fitHeight="41.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@Rukola.jpg"/>
+                                 <Image url="@Rukola.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir2Salat" prefHeight="70.0" prefWidth="100.0" text="Šalat">
                            <graphic>
                               <ImageView fitHeight="39.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@eisberg.jpg"/>
+                                 <Image url="@eisberg.jpg" />
                               </ImageView>
                            </graphic></Button>
                         <Button contentDisplay="TOP" layoutX="497.0" layoutY="86.0" mnemonicParsing="false" onAction="#garnir2Uhorky" prefHeight="70.0" prefWidth="100.0" text="Uhorky kysle" textAlignment="CENTER" wrapText="true">
                            <graphic>
                               <ImageView fitHeight="33.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@uhorky.jpg"/>
+                                 <Image url="@uhorky.jpg" />
                               </ImageView>
                            </graphic></Button>
                      </HBox>
@@ -172,14 +172,14 @@
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir3Kecup" prefHeight="70.0" prefWidth="100.0" text="Kečup">
                            <graphic>
                               <ImageView fitHeight="29.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@ketchup.jpg"/>
+                                 <Image url="@ketchup.jpg" />
                               </ImageView>
                            </graphic>
                         </Button>
                         <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#garnir3Horcica" prefHeight="70.0" prefWidth="100.0" text="Horčica">
                            <graphic>
                               <ImageView fitHeight="40.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
-                                 <Image url="@horcica.jpg"/>
+                                 <Image url="@horcica.jpg" />
                               </ImageView>
                            </graphic>
                         </Button>
