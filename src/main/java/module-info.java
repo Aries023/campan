@@ -8,4 +8,4 @@ module com.example.campan {
 
     opens com.example.campan to javafx.fxml;
     exports com.example.campan;
-}
+} 

@@ -15,25 +15,25 @@
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.campan.MainController">
    <left>
       <VBox alignment="CENTER" prefHeight="543.0" prefWidth="107.0" style="-fx-background-color: #063852;" BorderPane.alignment="CENTER">
-         <Button mnemonicParsing="false" onAction="#baconButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #F0810F;" text="CRISPY BACON" textAlignment="CENTER" wrapText="true">
+         <Button mnemonicParsing="false" onAction="#baconButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #F0810F;" text="CRISPY BANANAS" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="44.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                   <Image url="@yelowWrap.jpeg" />
                </ImageView>
             </graphic></Button>
-         <Button mnemonicParsing="false" onAction="#italianButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #CB0000;" text="GRILLED ITALIAN" textAlignment="CENTER" wrapText="true">
+         <Button mnemonicParsing="false" onAction="#italianButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #CB0000;" text="GRILLED FENIX" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="49.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                   <Image url="@greenWrap.jpeg" />
                </ImageView>
             </graphic></Button>
-         <Button mnemonicParsing="false" onAction="#asiaButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;" text="CRISPY ASIA" textAlignment="CENTER" wrapText="true">
+         <Button mnemonicParsing="false" onAction="#asiaButtonMenu" prefHeight="200.0" prefWidth="116.0" style="-fx-background-color: #E6DF44;" text="CRISPY ASSASIN" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="38.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                   <Image url="@redWrap.jpeg" />
                </ImageView>
             </graphic></Button>
-         <Button mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="GRILLED AJVAR" textAlignment="CENTER" wrapText="true">
+         <Button mnemonicParsing="false" onAction="#ajvarButtonMenu" prefHeight="200.0" prefWidth="116.0" text="GRILLED AJAJAR" textAlignment="CENTER" wrapText="true">
             <graphic>
                <ImageView fitHeight="40.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                   <Image url="@blueWrap.jpeg" />

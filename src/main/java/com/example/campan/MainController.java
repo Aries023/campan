@@ -19,22 +19,22 @@ public class MainController {
     // left menu --> buttons
     @FXML
     protected void baconButtonMenu() {
-        botPanelWrap.setText("bacon wrap");
+        botPanelWrap.setText("bananas wrap");
         WrapListSetter.setToBaconWrap(actualWrap);
     }
     @FXML
     protected void italianButtonMenu() {
-        botPanelWrap.setText("italian wrap");
+        botPanelWrap.setText("griled fenix wrap");
         WrapListSetter.setToItalianWrap(actualWrap);
     }
     @FXML
     protected void asiaButtonMenu() {
-        botPanelWrap.setText("asia wrap");
+        botPanelWrap.setText("assasin wrap");
         WrapListSetter.setToAsiaWrap(actualWrap);
     }
     @FXML
     protected void ajvarButtonMenu() {
-        botPanelWrap.setText("ajvar wrap");
+        botPanelWrap.setText("ajajar wrap");
         WrapListSetter.setToAjvarWrap(actualWrap);
     }
     @FXML
